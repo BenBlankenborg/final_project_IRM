@@ -1,8 +1,8 @@
 #!/bin/bash
-#this program parses through the data in a corpus, and puts all the 
-#tweets from 09-04-2019 and 12-04-2019 into seperate files
-#depending on wether they were made during the night or 
-#the day
+#this program parses through the data in the corpus Karora
+#and puts the first 20 tweets from each seperate nightly hour (23 until 7) 
+#together in one file, and does the same for the daily hours, 
+#for both 09-04-2019 and 12-04-2019.
 
 for number in 23 00 01 02 03 04 05 06
 do
